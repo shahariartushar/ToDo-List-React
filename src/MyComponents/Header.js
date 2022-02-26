@@ -1,6 +1,5 @@
 import React from "react";
-import PropTypes from 'prop-types'
-
+import PropTypes from "prop-types";
 
 const Header = (props) => {
   return (
@@ -57,13 +56,13 @@ const Header = (props) => {
 };
 
 Header.defaultProps = {
-    title: "Your Title",
-    searchBar: false
-}
+  title: "Your Title",
+  searchBar: false,
+};
 
 Header.propTypes = {
-    title: PropTypes.string.isRequired,
-    searchBar: PropTypes.bool
-}
+  title: PropTypes.string.isRequired,
+  searchBar: PropTypes.bool,
+};
 
 export default Header;
